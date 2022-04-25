@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap");
+
+:root {
+  --main-color: #070707;
+  --sec-color: #e4b36b;
+  --bg: #cac7c7;
+  --border: 0.1rem solid rgba(226, 220, 220, 0.3);
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transform: 0.2s linear;
+}
+
+html {
+  font-size: 60%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background: #000;
+}
+
+.section {
+  padding: 2rem 7%;
+}
+
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.7rem 3rem;
+  font-size: 1.7rem;
+  color: #fff;
+  background: var(--sec-color);
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 7%;
+  border-bottom: var(--border);
+  background: #fff;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 1000;
+}
+
+.header .Logo {
+  color: #000;
+  display: flex;
+}
+
+.header .Logo i{
+  color: #000;
+  font-size: 2rem;
+}
+
+.header .navbar a {
+  margin: 0 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: var(--main-color);
+}
+
+.header .navbar a:hover {
+  color: rgb(241, 114, 114);
+  border-bottom: 0.1rem solid var(--main-color);
+  padding-bottom: 0.5rem;
+}
+
+.header .navbar button {
+  color: #fff;
+  background: rgb(241, 114, 114);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(./img4.jpg) no-repeat right bottom/cover;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.home .content {
+  max-width: 60rem;
+  margin-left: 23rem;
+}
+
+.home .content h3 {
+  font-size: 4.5rem;
+  color: rgb(33, 8, 107);
+}
+
+.home .content .intro {
+   color: rgb(241, 114, 114);
+   font-weight: 550;
+   padding: 1rem;
+   font-size: 1rem;
+   font-size: 1.5rem;
+   line-height: 1.8rem;
+   padding: 1rem 0;
+}
+
+.home .content .par {
+  padding: 1rem;
+  font-size: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  padding: 1rem 0;
+  color: #000;
+}
+
+.home .content a {
+  margin-top: 1.5rem;
+}
+
+.home .content .button1 {
+  color: #fff;
+  background: rgb(241, 114, 114);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+.home .content .button2 {
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.home .content .button2:hover {
+  background: rgb(241, 114, 114);
+  color: #fff;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  color: rgb(33, 8, 107);
+  font-size: 1.75rem;
+  gap: 10rem;
+  padding: 3rem;
+}
+
+
+
+
+
+
+
+
+
